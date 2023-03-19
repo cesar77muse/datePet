@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9602D1C629C6A95200EED044 /* registerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9602D1C529C6A95200EED044 /* registerViewController.swift */; };
+		9602D1C829C6A9D800EED044 /* testViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9602D1C729C6A9D800EED044 /* testViewController.swift */; };
+		960772A729C6CB8B004728C7 /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 960772A629C6CB8B004728C7 /* Poppins-Light.ttf */; };
+		960772A929C6CBBC004728C7 /* Poppins-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 960772A829C6CBBC004728C7 /* Poppins-ExtraLight.ttf */; };
 		9614EC2B291D6F20003CF3DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9614EC2A291D6F20003CF3DC /* AppDelegate.swift */; };
 		9614EC2D291D6F20003CF3DC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9614EC2C291D6F20003CF3DC /* SceneDelegate.swift */; };
 		9614EC2F291D6F20003CF3DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9614EC2E291D6F20003CF3DC /* ViewController.swift */; };
@@ -14,9 +18,15 @@
 		9614EC35291D6F20003CF3DC /* datePet.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9614EC33291D6F20003CF3DC /* datePet.xcdatamodeld */; };
 		9614EC37291D6F22003CF3DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9614EC36291D6F22003CF3DC /* Assets.xcassets */; };
 		9614EC3A291D6F22003CF3DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9614EC38291D6F22003CF3DC /* LaunchScreen.storyboard */; };
+		96B0C23429C68D8C001D95CE /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 96B0C23329C68D8C001D95CE /* Poppins-Bold.ttf */; };
+		96B0C23729C68E39001D95CE /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 96B0C23629C68E39001D95CE /* Poppins-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9602D1C529C6A95200EED044 /* registerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = registerViewController.swift; sourceTree = "<group>"; };
+		9602D1C729C6A9D800EED044 /* testViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testViewController.swift; sourceTree = "<group>"; };
+		960772A629C6CB8B004728C7 /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Light.ttf"; sourceTree = "<group>"; };
+		960772A829C6CBBC004728C7 /* Poppins-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLight.ttf"; sourceTree = "<group>"; };
 		9614EC27291D6F20003CF3DC /* datePet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = datePet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9614EC2A291D6F20003CF3DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9614EC2C291D6F20003CF3DC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +36,8 @@
 		9614EC36291D6F22003CF3DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9614EC39291D6F22003CF3DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9614EC3B291D6F22003CF3DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96B0C23329C68D8C001D95CE /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		96B0C23629C68E39001D95CE /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +79,7 @@
 				9614EC38291D6F22003CF3DC /* LaunchScreen.storyboard */,
 				9614EC3B291D6F22003CF3DC /* Info.plist */,
 				9614EC33291D6F20003CF3DC /* datePet.xcdatamodeld */,
+				96B0C23529C68D91001D95CE /* fonts */,
 			);
 			path = datePet;
 			sourceTree = "<group>";
@@ -83,6 +96,8 @@
 			isa = PBXGroup;
 			children = (
 				9614EC2E291D6F20003CF3DC /* ViewController.swift */,
+				9602D1C529C6A95200EED044 /* registerViewController.swift */,
+				9602D1C729C6A9D800EED044 /* testViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -92,6 +107,17 @@
 			children = (
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		96B0C23529C68D91001D95CE /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				96B0C23329C68D8C001D95CE /* Poppins-Bold.ttf */,
+				96B0C23629C68E39001D95CE /* Poppins-Regular.ttf */,
+				960772A629C6CB8B004728C7 /* Poppins-Light.ttf */,
+				960772A829C6CBBC004728C7 /* Poppins-ExtraLight.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,8 +179,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				9614EC3A291D6F22003CF3DC /* LaunchScreen.storyboard in Resources */,
+				960772A729C6CB8B004728C7 /* Poppins-Light.ttf in Resources */,
 				9614EC37291D6F22003CF3DC /* Assets.xcassets in Resources */,
 				9614EC32291D6F20003CF3DC /* Main.storyboard in Resources */,
+				96B0C23429C68D8C001D95CE /* Poppins-Bold.ttf in Resources */,
+				96B0C23729C68E39001D95CE /* Poppins-Regular.ttf in Resources */,
+				960772A929C6CBBC004728C7 /* Poppins-ExtraLight.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,9 +195,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9602D1C829C6A9D800EED044 /* testViewController.swift in Sources */,
 				9614EC2F291D6F20003CF3DC /* ViewController.swift in Sources */,
 				9614EC2B291D6F20003CF3DC /* AppDelegate.swift in Sources */,
 				9614EC2D291D6F20003CF3DC /* SceneDelegate.swift in Sources */,
+				9602D1C629C6A95200EED044 /* registerViewController.swift in Sources */,
 				9614EC35291D6F20003CF3DC /* datePet.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -7,13 +7,24 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class ViewController: UIViewController, UITextFieldDelegate{
+    
+    
+    @IBOutlet weak var nameTextField: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
-        // test3
+     
     }
+    
+    @IBAction func registerWithEmail(_ sender: UIButton) {
+    
+        performSegue(withIdentifier: "emailRegistration", sender: nil)
+    }
+    
+    
+    
+
 
 
 }
