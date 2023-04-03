@@ -6,6 +6,9 @@
 //
 
 import UIKit
+import FirebaseCore
+
+
 
 class ViewController: UIViewController, UITextFieldDelegate{
     
@@ -14,6 +17,7 @@ class ViewController: UIViewController, UITextFieldDelegate{
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        print("congifure succes")
      
     }
     
@@ -22,10 +26,16 @@ class ViewController: UIViewController, UITextFieldDelegate{
         performSegue(withIdentifier: "emailRegistration", sender: nil)
     }
     
-    
+    override func viewWillAppear(_ animated: Bool) {
+//        handle = Auth.auth().addStateDidChangeListener { auth, user in
+//          // ...
+//        }
+    }
     
 
 
 
 }
+
+
 
