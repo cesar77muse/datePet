@@ -41,7 +41,7 @@ class registerViewController: UIViewController, UITextFieldDelegate {
     @IBAction func createAccount(_ sender: UIButton) {
         if let email = nameTextField.text, let password = passwordTextField.text,let Rpassword = repeatPasswordTextField.text {
             if password == Rpassword{
-                if Int(password)! > 6 {
+                if password.count > 6 {
                     Auth.auth().createUser(withEmail: email, password: password) { authResult, error in
                         if let e = error {
                             print(e)

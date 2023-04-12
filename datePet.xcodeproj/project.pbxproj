@@ -18,6 +18,7 @@
 		9614EC35291D6F20003CF3DC /* datePet.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9614EC33291D6F20003CF3DC /* datePet.xcdatamodeld */; };
 		9614EC37291D6F22003CF3DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9614EC36291D6F22003CF3DC /* Assets.xcassets */; };
 		9614EC3A291D6F22003CF3DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9614EC38291D6F22003CF3DC /* LaunchScreen.storyboard */; };
+		966AA2F629E751B200664A22 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966AA2F529E751B200664A22 /* LoginViewController.swift */; };
 		96B0C23429C68D8C001D95CE /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 96B0C23329C68D8C001D95CE /* Poppins-Bold.ttf */; };
 		96B0C23729C68E39001D95CE /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 96B0C23629C68E39001D95CE /* Poppins-Regular.ttf */; };
 		96E085CF29D9F1290053F891 /* PhoneValidationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E085CE29D9F1290053F891 /* PhoneValidationViewController.swift */; };
@@ -41,6 +42,7 @@
 		9614EC36291D6F22003CF3DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9614EC39291D6F22003CF3DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9614EC3B291D6F22003CF3DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		966AA2F529E751B200664A22 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		96B0C23329C68D8C001D95CE /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
 		96B0C23629C68E39001D95CE /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
 		96E085CE29D9F1290053F891 /* PhoneValidationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneValidationViewController.swift; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 				9602D1C529C6A95200EED044 /* registerViewController.swift */,
 				9602D1C729C6A9D800EED044 /* testViewController.swift */,
 				96E085CE29D9F1290053F891 /* PhoneValidationViewController.swift */,
+				966AA2F529E751B200664A22 /* LoginViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -228,6 +231,7 @@
 				9602D1C829C6A9D800EED044 /* testViewController.swift in Sources */,
 				9614EC2F291D6F20003CF3DC /* ViewController.swift in Sources */,
 				9614EC2B291D6F20003CF3DC /* AppDelegate.swift in Sources */,
+				966AA2F629E751B200664A22 /* LoginViewController.swift in Sources */,
 				9614EC2D291D6F20003CF3DC /* SceneDelegate.swift in Sources */,
 				9602D1C629C6A95200EED044 /* registerViewController.swift in Sources */,
 				9614EC35291D6F20003CF3DC /* datePet.xcdatamodeld in Sources */,

@@ -32,7 +32,10 @@ class ViewController: UIViewController, UITextFieldDelegate{
 //        }
     }
     
-
+    @IBAction func loginButton(_ sender: Any) {
+        performSegue(withIdentifier: "loginpage", sender: nil)
+    }
+    
 
 
 }
