@@ -18,8 +18,8 @@ class registerViewController: UIViewController, UITextFieldDelegate {
     
     var passwordMessage = UIAlertController(title: "Attention", message: "Las contraseñas no coinciden", preferredStyle: .alert)
     var charactersMessage = UIAlertController(title: "Attention", message: "La contraseña debe tener al menos 6 caracteres", preferredStyle: .alert)
+    var registerProblem = UIAlertController(title: "Attention", message: "Ha ocurrido un error intentando crear tu cuenta, intenta nuevamente", preferredStyle: .alert)
     let ok = UIAlertAction(title: "OK", style: .default, handler: { (action) -> Void in
-         print("Ok button tapped")
       })
     
     
@@ -44,6 +44,8 @@ class registerViewController: UIViewController, UITextFieldDelegate {
                 if password.count > 6 {
                     Auth.auth().createUser(withEmail: email, password: password) { authResult, error in
                         if let e = error {
+                            self.registerProblem.addAction(self.ok)
+                            self.present(self.registerProblem, animated: true, completion: nil)
                             print(e)
                         }
                         else {
@@ -84,6 +86,7 @@ class registerViewController: UIViewController, UITextFieldDelegate {
  
     
     @IBAction func cancelCreation(_ sender: UIButton) {
-        performSegue(withIdentifier: "cancelEmailRegistration", sender: nil)
+        //performSegue(withIdentifier: "cancelEmailRegistration", sender: self)
+        self.dismiss(animated: true)
     }
 }

@@ -1,14 +1,17 @@
 //
-//  testViewController.swift
+//  Welcome2ViewController.swift
 //  datePet
 //
-//  Created by Cesar Hernandez on 18/03/23.
+//  Created by Cesar Hernandez on 15/04/23.
 //
 
 import UIKit
 
-class testViewController: UIViewController {
+class Welcome2ViewController: UIViewController {
 
+    @IBAction func nextButton(_ sender: UIButton) {
+        performSegue(withIdentifier: "toDashboard", sender: self)
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
 

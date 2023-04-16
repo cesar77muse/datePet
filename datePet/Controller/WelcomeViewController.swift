@@ -1,13 +1,13 @@
 //
-//  PhoneValidationViewController.swift
+//  WelcomeViewController.swift
 //  datePet
 //
-//  Created by Cesar Hernandez on 2/04/23.
+//  Created by Cesar Hernandez on 15/04/23.
 //
 
 import UIKit
 
-class PhoneValidationViewController: UIViewController {
+class WelcomeViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -15,20 +15,14 @@ class PhoneValidationViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
-    @IBAction func checkCode(_ sender: UIButton) {
-        performSegue(withIdentifier: "congrats", sender: self)
-    }
-    
-    @IBAction func SendPhoneCodeAgain(_ sender: Any) {
+    @IBAction func nextButton(_ sender: UIButton) {
+        performSegue(withIdentifier: "welcome", sender: self)
     }
     /*
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
-     @IBAction func sendCodeBack(_ sender: UIButton) {
-     }
-     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destination.
         // Pass the selected object to the new view controller.
     }
